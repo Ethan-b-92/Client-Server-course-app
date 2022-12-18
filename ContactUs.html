@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="ContactUsCss.css">
+<script src="javascript.js"></script>
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">Contact Us</div>
+        <div class="form-row align-items-center" id="form">
+            <!-- <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div> -->
+            <form autocomplete="on">
+                <br><br>
+                <input id="name" type="text" placeholder=" Name*">
+                <br><br>
+                <input id="email" type="email" placeholder=" Email*">
+                <br><br>
+                <select class="custom-select mr-sm-2" id="contactConcernsBox">
+                    <option disabled selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <br><br>
+                <input id="subject" type="text" placeholder=" Subject*">
+            </form>
+            <button id="submitButton"> Submit </button>
+        </div>
+        <div id="support" style="display: flex;">
+            <div>
+                <img src="images/costumer service.png" id="image1">
+            </div>
+            <div id="supportTextAndButton">
+                <header id="supportHeader">NEED 24/7 SUPPORT</header>
+                <button id="contactSupportButton" style="margin-top: 10px;">CONTACT SUPPORT</button>
+            </div>
+        </div>
+        <div id="info">
+            <div>
+                <div>
+                    <img class="infoImages" src="images/phone icon.png">
+                </div>
+                <div>
+                    <img class="infoImages" id="salesHoursImage" src="images/clock icon.png">
+                </div>
+                <div>
+                    <img class="infoImages" id="mailingAddressImage" src="images/envelope icon.png">
+                </div>
+            </div>
+            <div>
+                <div class="infoTextHeaders" id="callSalesHeader">CALL SALES NOW</div>
+                <div class="infoTextLines">+1-512-827-3500</div>
+                <div class="infoTextHeaders" id="salesHoursHeader">SALES HOURS</div>
+                <div class="infoTextLines">7am-7pm CST</div>
+                <div class="infoTextHeaders">SALES CONTACT INFO</div>
+                <div class="infoTextLines">mysales@gmail.com<br>+1-512-827-3500</div>
+                <div class="infoTextHeaders" id="mailingAddressHeader">MAILING ADDRESS</div>
+                <div class="infoTextLines">myCompanyName<br>myAddress<br>Austin, Texas 78701<br>United States</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

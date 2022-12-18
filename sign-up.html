@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+<link rel="stylesheet" href="styles.css">
+<script src="javascript.js"></script>
+</head>
+
+<body>
+<div class="container" style="padding-left: 40px; text-align: left; height: 380px;">
+	<div class="header" style="font-size: 30px;">
+	Sign Up
+	</div>
+    <form autocomplete="on" style="font-weight: bold;">
+        Email:<br>
+        <input id="email" type="email" name="email">
+        <br><br>
+        Password:<br>
+        <input id="password" type="password" name="password">
+        <br><br>
+        Confirm password:<br>
+        <input id="confirm" type="password" name="confirm-password">
+        <br>
+        <input type="checkbox" onclick="showPassword()" style="width: 10px;" title="Show password">
+        <br>
+        <button onclick="validateSignUp()" style="margin:0;">Create my account</button>
+    </form>
+    <div class="sign-up">
+        <text>Already a member? <a href="/log-in.html"> Sign-in</a></text>
+    </div>
+    <script> setToolTips(); </script>
+</div>
+</body>
+</html>

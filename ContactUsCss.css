@@ -1,0 +1,118 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+	background-color: black;
+	margin: 0;
+}
+.container {
+	background-color: white;
+	text-align:left;
+	width: 1100px;
+	height: 700px;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-family: "Arial";
+}
+#header {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+#form{
+    background-color:lightgrey;
+	float: left;
+	height: 645px;
+    width: 600px;
+}
+input {
+	width: 350px;
+	height: 50px;
+	padding: 2px;
+	margin-left: 10px;
+}
+#contactConcernsBox{
+	width: 350px;
+	height: 50px;
+    margin-left: 10px;
+}
+#submitButton{
+	width: 200px;
+	height: 70px;
+	margin-left: 10px;
+}
+#support{
+    background-color: rgb(209, 135, 39);
+	float: right;
+    height: 200px;
+	width: 480px;
+}
+#supportHeader{
+	margin-top: 10%;
+	font-size: 25px;
+}
+#supportTextAndButton{
+	position: relative;
+	top: 30px;
+}
+#info{
+    background-color: lightgray;
+	float: right;
+	margin-top: 2%;
+	height: 423px;
+	width: 480px;
+	display: flex;
+}
+.infoImages{
+    height: 70px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.infoTextHeaders{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: larger;
+	width: 300px;
+}
+.infoTextLines{
+	color:rgb(red, green, blue);
+	margin-left: 20px;
+}
+#callSalesHeader{
+	margin-top: 20px;
+}
+#salesHoursHeader{
+	margin-top: 60px;
+}
+#mailingAddressHeader{
+	margin-top: 20px;
+}
+#salesHoursImage{
+	margin-top: 30px;
+}
+#mailingAddressImage{
+	margin-top: 50px;
+}
+button {
+	color: white;
+	background-color: hsl(205, 100%, 50%);
+	border: 1px solid hsl(205, 100%, 30%);
+	border-radius: 3px;
+	padding: 5px 80px;
+	cursor: pointer;
+}
+button:hover, button:focus {
+    background-color: hsl(205, 100%, 40%);
+    box-shadow: 0 0 1px 0 hsl(205, 100%, 30%);
+}
+
+#image1{
+    height: 50%;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
